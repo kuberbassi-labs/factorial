@@ -4,7 +4,7 @@
 int factorial(int n);
 
 int main(){
-    int n, i;
+    int n;
     printf("Enter a number : ");
     scanf("%d", &n);
     printf("Factorial of %d is %d",n , factorial(n));
